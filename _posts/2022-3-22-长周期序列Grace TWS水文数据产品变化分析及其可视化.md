@@ -53,7 +53,9 @@ plt.imshow(tws.gradient)
 
 #### 源代码
 
+
 ```python
+
 
 import netCDF4 as nc
 from osgeo import gdal, osr, ogr
@@ -63,7 +65,6 @@ from datetime import datetime, timedelta
 import tempfile
 import matplotlib.pyplot as plt
 from ftplib import FTP           
-rootDir = r'./tws/'
 
 class Reader:
     def __init__(self,rootDir):
@@ -148,4 +149,4 @@ class Reader:
             gdal.RasterizeLayer(ts, [1], vs_lyr, burn_values=[100])
             mask=ts.GetRasterBand(1).ReadAsArray()
         return mask==100
-
+```
