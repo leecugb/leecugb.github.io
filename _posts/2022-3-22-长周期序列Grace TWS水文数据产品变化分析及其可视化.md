@@ -53,10 +53,7 @@ plt.imshow(tws.gradient)
 
 #### 源代码
 
-```python
-# Prints '2'
-print(1+1)
-```
+
 
 
 
@@ -64,7 +61,6 @@ print(1+1)
 
 
 import netCDF4 as nc
-
 from osgeo import gdal, osr, ogr
 import numpy as np
 import sys, string, os, re
