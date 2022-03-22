@@ -33,7 +33,7 @@
 >>> data=tws.plot('./tws/mask.shp')
 
 ```
-![](download.png)
+![](/images/grace_plot.png)
 
 
 data变量存储了折线数据。
@@ -43,7 +43,7 @@ data变量存储了折线数据。
 plt.imshow(tws.gradient)
 
 ``` 
-![avatar](download1.png)
+![avatar](../images/gradient.png)
 
 
 
