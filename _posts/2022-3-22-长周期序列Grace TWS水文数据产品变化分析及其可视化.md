@@ -43,7 +43,7 @@ data变量存储了折线数据。
 plt.imshow(tws.gradient)
 
 ``` 
-![avatar](../images/gradient.png)
+![avatar](/images/gradient.png)
 
 
 
