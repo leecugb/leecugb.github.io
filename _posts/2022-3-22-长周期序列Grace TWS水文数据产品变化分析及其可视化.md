@@ -58,6 +58,7 @@ plt.imshow(tws.gradient)
 
 
 import netCDF4 as nc
+
 from osgeo import gdal, osr, ogr
 import numpy as np
 import sys, string, os, re
@@ -149,4 +150,5 @@ class Reader:
             gdal.RasterizeLayer(ts, [1], vs_lyr, burn_values=[100])
             mask=ts.GetRasterBand(1).ReadAsArray()
         return mask==100
+        
 ```
